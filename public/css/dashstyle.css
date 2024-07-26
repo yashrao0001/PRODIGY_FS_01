@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: #282a36;
+}
+
+.wrapper {
+    width: 700px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.wrapper1 {
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    padding-right: 5px;
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .head {
+    display: flex;
+    width: 200%;
+}
+
+.wrapper .heading {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.wrapper1 .title {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper1 .title-text{
+height: 200px;
+}
+#btn{
+    height: 65px;
+    width: 20rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 170px;
+    height: 170px;
+}
+
+form button{
+    height: 57px;
+    width: 20rem;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    font-size: 25px;
+    background-color: #1a75ff;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}

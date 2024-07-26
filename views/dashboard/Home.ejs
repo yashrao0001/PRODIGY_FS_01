@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <h2>Login</h2>
+  <form action="/login" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <button type="submit">Login</button>
+  </form>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login &amp; signup form</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="title-text">
+    <div class="title login">Login Form</div>
+    <div class="title signup">Signup Form</div>
+  </div>
+  <div class="form-container">
+    <div class="slide-controls">
+      <input type="radio" name="slide" id="login" checked>
+      <input type="radio" name="slide" id="signup">
+      <label for="login" class="slide login">Login</label>
+      <label for="signup" class="slide signup">Signup</label>
+      <div class="slider-tab"></div>
+    </div>
+    <div class="form-inner">
+      <form action="/login" method="post" class="login">
+        <div class="field">
+          <input type="text" placeholder="Username" name="username" required>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="Password" name="password" required>
+        </div>
+        <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" value="Login">
+        </div>
+        <div class="signup-link">Not a member? <a href="/register">Signup now</a></div>
+      </form>
+      <form action="/register" method="post" class="signup">
+        <div class="field">
+          <input type="text" placeholder="Username" name="username" required>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="Password" name="password" required>
+        </div>
+        <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" value="Signup">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="/js/script.js"></script>
+</body>
+</html>
